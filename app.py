@@ -1,3 +1,3 @@
 import eel
 eel.init('web')
-eel.start('main.html')
+eel.start('templates/main.html', jinja_templates='templates')
