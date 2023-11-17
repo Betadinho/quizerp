@@ -2,8 +2,8 @@ import eel
 import constants
 from pathlib import Path
 import json
-#eel.init('web')
-#eel.start(constants.MAIN_PAGE_DIR, jinja_templates=constants.JINJA_TEMPLATE_DIR)
+eel.init('web')
+eel.start(constants.MAIN_PAGE_DIR, jinja_templates=constants.JINJA_TEMPLATE_DIR)
 
 SAVE_FILE_PATH = Path(constants.SAVE_FILE_DIR) / constants.SAVE_FILE_NAME
 
